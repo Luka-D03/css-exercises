@@ -1,9 +1,9 @@
-.first, .seccond {
+.black, .seccond {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
-.first {
+.black {
     background-color: black;
     color: white;
 }
