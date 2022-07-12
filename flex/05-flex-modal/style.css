@@ -20,6 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.buttons {
+  margin: 10px 0;
 }
 
 .icon {
@@ -29,7 +47,9 @@ body {
   background: lavender;
   width: 42px;
   height: 42px;
+  flex-shrink: 0;
   border-radius: 50%;
+  margin: 8px 16px 0 8px;
   display: flex;
   align-items: center;
   justify-content: center;
